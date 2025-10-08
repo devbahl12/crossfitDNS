@@ -51,7 +51,10 @@ dig @127.0.0.1 snl-columbia-university.github.io
 
 dig @127.0.0.1 -p 5353 snl-columbia-university.github.io
 
-## Example Logs
+```
+---
+
+## Logs  
 
 ![alt text](/logs.png)
 
