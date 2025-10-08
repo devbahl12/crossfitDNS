@@ -59,7 +59,7 @@ dig @127.0.0.1 snl-columbia-university.github.io
 
 ## If running on custom port (e.g., 8053):
 
-dig @127.0.0.1 -p 5353 snl-columbia-university.github.io
+``` dig @127.0.0.1 -p 5353 snl-columbia-university.github.io ```
 
 ---
 
