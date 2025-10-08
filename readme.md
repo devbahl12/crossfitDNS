@@ -33,15 +33,15 @@ pip install dnslib
 
 ## 🚀 How to Run  
 
-### Run on standard DNS port (requires root/sudo):  
+## Run on standard DNS port (requires root/sudo):  
 ```bash
 sudo python3 crossfit_dns.py --port 53
 
-### Run on custom port (no root needed, e.g., 8053):
+## Run on custom port (no root needed, e.g., 8053):
 
 python3 crossfit_dns.py --port 8053
 
-## How to Test  
+## 🔧 How to Test  
 
 ## If running on port 53:
 
@@ -53,4 +53,8 @@ dig @127.0.0.1 -p 5353 snl-columbia-university.github.io
 
 ## Example Logs
 
-![alt text](image.png)
+![alt text](/logs.png)
+
+## Test Result
+
+![alt text](/testss.png)
