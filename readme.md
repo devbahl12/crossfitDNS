@@ -27,13 +27,9 @@ Traditional DNS and BGP cannot adapt to real-time performance changes. Our proto
 - Python 3.8+  
 - [`dnslib`](https://pypi.org/project/dnslib/) library  
 
----
-
 Install dependencies:  
-
+```bash
 pip install dnslib
-
----
 
 ## 🚀 How to Run  
 
@@ -41,13 +37,9 @@ pip install dnslib
 
 sudo python3 crossfit_dns.py --port 53
 
----
-
 ## Run on custom port (no root needed, e.g., 8053):
 
 python3 crossfit_dns.py --port 8053
-
----
 
 ## 🔧 How to Test  
 
@@ -55,11 +47,9 @@ python3 crossfit_dns.py --port 8053
 
 dig @127.0.0.1 snl-columbia-university.github.io
 
----
-
 ## If running on custom port (e.g., 8053):
 
-``` dig @127.0.0.1 -p 5353 snl-columbia-university.github.io ```
+dig @127.0.0.1 -p 5353 snl-columbia-university.github.io
 
 ---
 
