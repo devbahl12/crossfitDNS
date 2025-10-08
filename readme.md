@@ -23,6 +23,18 @@ Traditional DNS and BGP cannot adapt to real-time performance changes. Our proto
 
 ---
 
+## Logs  
+
+![alt text](/logs.png)
+
+---
+
+## Test Result
+
+![alt text](/testss.png)
+
+---
+
 ## 🖥️ Requirements  
 - Python 3.8+  
 - [`dnslib`](https://pypi.org/project/dnslib/) library  
@@ -50,13 +62,3 @@ dig @127.0.0.1 snl-columbia-university.github.io
 ## If running on custom port (e.g., 8053):
 
 dig @127.0.0.1 -p 5353 snl-columbia-university.github.io
-
----
-
-## Logs  
-
-![alt text](/logs.png)
-
-## Test Result
-
-![alt text](/testss.png)
