@@ -49,6 +49,8 @@ pip install dnslib
 
 sudo python3 crossfit_dns.py --port 53
 
+## OR ##
+
 ## Run on custom port (no root needed, e.g., 8053):
 
 python3 crossfit_dns.py --port 8053
@@ -58,6 +60,8 @@ python3 crossfit_dns.py --port 8053
 ## If running on port 53:
 
 dig @127.0.0.1 snl-columbia-university.github.io
+
+## OR ##
 
 ## If running on custom port (e.g., 8053):
 
